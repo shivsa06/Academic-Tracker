@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Form Operation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple ReactJS app for collecting student details and marks. It has forms to enter personal info, high school marks, intermediate marks, and a summary page to show everything. The app uses React Router for navigation.
 
-## Available Scripts
+## Features
+- **Registration**: Enter basic information.
+- **High School**: Add marks for subjects, and calculate percentage.
+- **Intermediate**: Add marks for subjects, and calculate percentage.
+- **Summary**: View all entered details and percentages.
+- Clean and modern design with CSS.
 
-In the project directory, you can run:
+## How to Run
+1. **Clone the repo**: git clone https://github.com/shivsa06/Form-Operation.git
+2. **Go to the folder**: cd form-operation
+3. **Install dependencies**: npm install
+4. **Start the app**: npm start
 
-### `npm start`
+The app will open at `http://localhost:3000`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Structure
+- `src/` - Contains all React code.
+- `pages/` - Files for pages (`Registration.js`, `HighSchool.js`, `Intermediate.js`, `Summary.js`).
+- `App.js` - Main file with routing and state management.
+- `App.css` - Styling for the app.
+- `package.json` - Lists dependencies like React and React Router.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- ReactJS
+- React Router
+- CSS
+- JavaScript
 
-### `npm test`
+## How It Works
+1. Fill personal details on the **Registration** page and click "Next".
+2. Enter high school marks, calculate percentage, and click "Next".
+3. Enter intermediate marks, calculate percentage, and click "View Summary".
+4. See all details on the **Summary** page. Click "Back" to start over.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Future Ideas
+- Add form validation.
+- Connect to a backend for data storage.
+- Improve styling with animations.
+- Make it mobile-friendly.
 
-### `npm run build`
+## Contributing
+Want to help? Fork the repo, make changes, and submit a pull request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+This project is open-source and free to use.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
+Questions? Reach me on GitHub: [shivsa06](https://github.com/shivsa06).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Excited to share my latest project, EduForm Portal! 🚀 A ReactJS app for student data collection with multi-step forms, real-time calculations, and cool loading spinners. Built with React Router and CSS for a smooth UX. Check it out on GitHub: [link] #ReactJS #WebDevelopment #JavaScript -->
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- https://github.com/shivsa06/Academic-Tracker.git -->
