@@ -50,7 +50,3 @@ This project is open-source and free to use.
 
 ## Contact
 Questions? Reach me on GitHub: [shivsa06](https://github.com/shivsa06).
-
-<!-- Excited to share my latest project, EduForm Portal! 🚀 A ReactJS app for student data collection with multi-step forms, real-time calculations, and cool loading spinners. Built with React Router and CSS for a smooth UX. Check it out on GitHub: [link] #ReactJS #WebDevelopment #JavaScript -->
-
-<!-- https://github.com/shivsa06/Academic-Tracker.git -->
